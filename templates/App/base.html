@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'base/css/base.css' %}">
+    {% block personResourse %}
+
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <img src="" alt="" class="logo">
+        <ul class="nav-list">
+            <li><a href="">首页</a></li>
+            <li><a href="">发现</a></li>
+            <li><a href="">学院</a></li>
+            <li><a href="">素材</a></li>
+            <li><a href="">活动</a></li>
+            <li><a href="">更多</a></li>
+        </ul>
+        <div class="right">
+            <ul>
+                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href="">登录</a></li>
+                <li><a href="">注册</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content" >
+            <a href="" class="banner"><img src="{% static '/base/img/5a24c8feac9d4.jpg' %}" alt=""></a>
+        {% block minecontent %}
+
+        {% endblock %}
+        </div>
+
+    </div>
+</body>
+</html>

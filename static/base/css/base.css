@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: rgb(247,247,247);
+}
+body html{
+    width: 100%;
+}
+header{
+    height: 60px;
+    padding:0 60px;
+    background: white;
+    overflow: hidden;
+}
+.nav-list{
+    float: left;
+    margin-left: 20px;
+    height: 60px;
+}
+.nav-list li{
+    float: left;
+    padding: 0 20px;
+    height: 60px;
+}
+.nav-list li a{
+    color: #333;
+    font-size: 16px;
+    line-height: 60px;
+}
+.logo{
+    width: 100px;
+}
+.right{
+    height: 60px;
+    float: right;
+}
+.right li{
+    float: right;
+    text-align: center;
+    margin-left: 40px;
+    color: #333333;
+    font-size: 16px;
+}
+.right li a {
+    line-height: 60px;
+}
+.content{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 40px 20px 40px;
+}
+.banner{
+    display: inline-block;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.container{
+    background: rgb(247,247,247);
+}

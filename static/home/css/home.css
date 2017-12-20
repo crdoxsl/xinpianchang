@@ -1,0 +1,75 @@
+.choose-bar{
+    margin-top: 20px;
+    height: 64px;
+}
+.sort-type{
+    float: right;
+}
+.sort-type a{
+    color: #333;
+    font-size: 16px;
+    line-height: 64px;
+}
+.article{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.box{
+    /*width:270px;*/
+    float: left;
+    margin: 20px 20px 0 0;
+}
+.video-content>div:nth-of-type(4n){
+    margin-right: 0;
+}
+.box img{
+    width:270px;
+}
+.video-con{
+    width:242px;
+    padding: 14px;
+}
+.title{
+    height: 21px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.video-view{
+    color: #999999;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+.type{
+    padding-right: 5px;
+
+}
+.fw_600{
+    font-weight: 600;
+}
+.user-info{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-flow: nowrap;
+    overflow: hidden;
+}
+.creater{
+    font-size: 12px;
+    color: #333;
+    font-weight: 300;
+}
+.job{
+    color: #999999;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 5px;
+}

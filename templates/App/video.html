@@ -1,0 +1,11 @@
+{% extends 'App/base.html' %}
+{% load static %}
+
+
+{% block personResourse %}
+    <link rel="stylesheet" href="{% static 'video/css/video.css' %}">
+{% endblock %}
+
+{% block minecontent %}
+    <video src="{% static 'media/video/5a3168ebe17b7.mp4' %}" controls="controls"></video>
+{% endblock %}
